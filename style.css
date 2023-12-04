@@ -1,0 +1,53 @@
+
+body {
+    font-family: Mandali,sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    background: var(--bg-light);
+    -webkit-text-size-adjust: none;
+}
+a, body {
+    color: #000;
+}
+injected stylesheet
+html, body {
+    height: inherit;
+    min-height: inherit;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+user agent stylesheet
+body {
+    display: block;
+    margin: 8px;
+}
+:root {
+    --text-grey: #919191;
+    --text-blue-light: #6a8edc;
+    --bg-grey: #252525;
+}
+.theme-light, :root {
+    --text-grey-light: #cccccc;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+*, :after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
